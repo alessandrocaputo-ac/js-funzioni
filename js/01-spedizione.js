@@ -34,4 +34,8 @@ console.log(trovaStatoSpedizione(2));
 console.log(trovaStatoSpedizione(3));
 console.log(trovaStatoSpedizione(4));
 console.log(trovaStatoSpedizione(0));
+
+// con '2' esce Stato sconosciuto perché è una String e non un Number: === controlla anche il tipo
 console.log(trovaStatoSpedizione('2'));
+
+// se il codice arrivasse da un prompt, prima andrebbe trasformato in numero con parseInt
